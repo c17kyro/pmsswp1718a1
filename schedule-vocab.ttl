@@ -1,4 +1,48 @@
 # Το αρχείο Turtle του λεξιλογίου RDFS που περιγράφει
 # τις κλάσεις και τις ιδιότητες του ωρολογίου προγράμματος.
+@prefix voc:<http://dilab77.ionio.gr/swp/c17kyro/vocab#>.
+@prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd:<http://www.w3.org/2001/XMLSchema#>.
+@prefix foaf:<http://xmlns.com/foaf/0.1/>.
+@prefix res: <http://dilab77.ionio.gr/swp/c17kyro/resource/>.
+
+# ΚΛΑΣΕΙΣ
+# Κλάση Διδάσκων
+voc:Didaskon rdf:type rdfs:Class.
+# Κλάση Διάλεξη
+voc:Dialexi rdf:type rdfs:Class.
+# Κλάση Αίθουσα
+voc:Aithousa rdf:type rdfs:Class.
+# Κλάση Μάθημα
+voc:Mathima rdf:type rdfs:Class.
+# Διδάσκων υποκλάση foaf
+voc:Didaskon rdfs:suClassOf foaf:Class.
+
+# ΙΔΙΟΤΗΤΕΣ
+# Ιδιότητα ημέρα
+voc:Ημέρα rdf:type rdf:Property.
+voc:Ημέρα rdfs:domain voc:Dialexi.
+voc:Ημέρα rdfs:range rdfs:Literal.
+# Ιδιότητα έναρξη
+voc:Έναρξη rdf:type rdf:Property.
+voc:Έναρξη rdfs:domain voc:Dialexi.
+voc:Έναρξη rdfs:range xsd:time.
+# Ιδιότητα λήξη
+voc:Λήξη rdf:type rdf:Property.
+voc:Λήξη rdfs:domain voc:Dialexi.
+voc:Λήξη rdfs:range xsd:time.
+# Ιδιότητα καθηγητής - διδάσκων
+voc:Καθηγητής rdf:type rdf:Property.
+voc:Καθηγητής rdfs:domain voc:Dialexi.
+voc:Καθηγητής rdfs:range voc:Didaskon.
+# Ιδιότητα μάθημα
+voc:Μάθημα rdf:type rdf:Property.
+voc:Μάθημα rdfs:domain voc:Dialexi.
+voc:Μάθημα rdfs:range voc:Mathima.
+# Ιδιότητα αίθουσα
+voc:Αίθουσα rdf:type rdf:Property.
+voc:Αίθουσα rdfs:domain voc:Dialexi.
+voc:Αίθουσα rdfs:range voc:Aithousa.
 
 
