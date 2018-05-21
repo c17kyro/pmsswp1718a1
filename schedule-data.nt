@@ -1,4 +1,54 @@
 # Το αρχείο N-Triples με τα δεδομένα του ωρολογίου προγράμματος
 # και τις δηλώσεις rdf:type για κάθε οντότητα.
+_:1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17kyro/vocab#Ημέρα>.
+_:1 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Ημέρα> "Δευτέρα".
+_:1 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Έναρξη> "15:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:1 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Λήξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+<http://dilab77.ionio.gr/swp/c17kyro/resource/ΚΟΜΙΑΝΟΣ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17kyro/vocab#Didaskon>.
+_:1 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Καθηγητής> <http://dilab77.ionio.gr/swp/c17kyro/resource/ΚΟΜΙΑΝΟΣ>.
+<http://dilab77.ionio.gr/swp/c17kyro/resource/ΨΥΓΑΓΩΓΙΚΟ%20ΛΟΓΙΣΜΙΚΟ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17kyro/vocab#Mathima>.
+_:1 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Μάθημα> <http://dilab77.ionio.gr/swp/c17kyro/resource/ΨΥΓΑΓΩΓΙΚΟ%20ΛΟΓΙΣΜΙΚΟ>.
+<http://dilab77.ionio.gr/swp/c17kyro/resource/Αραιτέος> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17kyro/vocab#Aithousa>.
+_:1 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Αίθουσα> <http://dilab77.ionio.gr/swp/c17kyro/resource/Αραιτέος>.
+_:2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17kyro/vocab#Ημέρα>.
+_:2 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Ημέρα> "Τρίτη".
+_:2 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Έναρξη> "15:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:2 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Λήξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+<http://dilab77.ionio.gr/swp/c17kyro/resource/ΣΤΕΦΑΝΙΔΑΚΗΣ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17kyro/vocab#Didaskon>.
+_:2 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Καθηγητής> <http://dilab77.ionio.gr/swp/c17kyro/resource/ΣΤΕΦΑΝΙΔΑΚΗΣ>.
+<http://dilab77.ionio.gr/swp/c17kyro/resource/ΠΡΟΓΡ.ΣΗΜ.ΙΣΤ.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17kyro/vocab#Mathima>.
+_:2 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Μάθημα> <http://dilab77.ionio.gr/swp/c17kyro/resource/ΠΡΟΓΡ.ΣΗΜ.ΙΣΤ.>.
+<http://dilab77.ionio.gr/swp/c17kyro/resource/Αραιτέος> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17kyro/vocab#Aithousa>.
+_:2 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Αίθουσα> <http://dilab77.ionio.gr/swp/c17kyro/resource/Αραιτέος>.
+_:3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17kyro/vocab#Ημέρα>.
+_:3 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Ημέρα> "Τρίτη".
+_:3 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Έναρξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:3 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Λήξη> "21:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+<http://dilab77.ionio.gr/swp/c17kyro/resource/ΒΛΑΜΟΣ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17kyro/vocab#Didaskon>.
+_:3 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Καθηγητής> <http://dilab77.ionio.gr/swp/c17kyro/resource/ΒΛΑΜΟΣ>.
+<http://dilab77.ionio.gr/swp/c17kyro/resource/ΒΙΟΠΛΗΡΟΦΟΡΙΚΗ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17kyro/vocab#Mathima>.
+_:3 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Μάθημα> <http://dilab77.ionio.gr/swp/c17kyro/resource/ΒΙΟΠΛΗΡΟΦΟΡΙΚΗ>.
+<http://dilab77.ionio.gr/swp/c17kyro/resource/Αίθουσα%202> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17kyro/vocab#Aithousa>.
+_:3 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Αίθουσα> <http://dilab77.ionio.gr/swp/c17kyro/resource/Αίθουσα%202>.
+_:4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17kyro/vocab#Ημέρα>.
+_:4 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Ημέρα> "Τετάρτη".
+_:4 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Έναρξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:4 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Λήξη> "21:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+<http://dilab77.ionio.gr/swp/c17kyro/resource/ΑΥΛΩΝΙΤΗΣ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17kyro/vocab#Didaskon>.
+_:4 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Καθηγητής> <http://dilab77.ionio.gr/swp/c17kyro/resource/ΑΥΛΩΝΙΤΗΣ>.
+<http://dilab77.ionio.gr/swp/c17kyro/resource/ΜΟΝΤΕΛΟΠΟΙΗΣΗ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17kyro/vocab#Mathima>.
+_:4 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Μάθημα> <http://dilab77.ionio.gr/swp/c17kyro/resource/ΜΟΝΤΕΛΟΠΟΙΗΣΗ>.
+<http://dilab77.ionio.gr/swp/c17kyro/resource/Αραιτέος> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17kyro/vocab#Aithousa>.
+_:4 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Αίθουσα> <http://dilab77.ionio.gr/swp/c17kyro/resource/Αραιτέος>.
+_:5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17kyro/vocab#Ημέρα>.
+_:5 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Ημέρα> "Πέμπτη".
+_:5 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Έναρξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:5 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Λήξη> "21:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+<http://dilab77.ionio.gr/swp/c17kyro/resource/ΜΥΛΩΝΑΣ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17kyro/vocab#Didaskon>.
+_:5 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Καθηγητής> <http://dilab77.ionio.gr/swp/c17kyro/resource/ΜΥΛΩΝΑΣ>.
+<http://dilab77.ionio.gr/swp/c17kyro/resource/ΕΞΟΡΥΞΗ%20ΔΕΔΟΜΕΝΩΝ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17kyro/vocab#Mathima>.
+_:5 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Μάθημα> <http://dilab77.ionio.gr/swp/c17kyro/resource/ΕΞΟΡΥΞΗ%20ΔΕΔΟΜΕΝΩΝ>.
+<http://dilab77.ionio.gr/swp/c17kyro/resource/Αίθουσα%202> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17kyro/vocab#Aithousa>.
+_:5 <http://dilab77.ionio.gr/swp/c17kyro/vocab#Αίθουσα> <http://dilab77.ionio.gr/swp/c17kyro/resource/Αίθουσα%202>.
 
 
